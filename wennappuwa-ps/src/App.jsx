@@ -1,3 +1,4 @@
+import { BrowserRouter, Route, Routes } from "react-router";
 import "./App.css";
 import PrimaryNavBar from "./components/PrimaryNavBar/PrimaryNavBar";
 
@@ -9,7 +10,12 @@ function App() {
   return (
     <>
       <PrimaryNavBar />
-      <Home />
+
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
