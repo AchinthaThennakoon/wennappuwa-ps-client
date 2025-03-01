@@ -11,12 +11,14 @@ import Feedback from "./pages/Feedback/Feedback";
 import "./utils/i18n";
 import Downloads from "./pages/Downloads/Downloads";
 import VideoGallery from "./pages/Video Gallery/VideoGallery";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <PrimaryNavBar />
       <SecondaryNavBar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -28,6 +30,7 @@ function App() {
         <Route path="/downloads" element={<Downloads />} />
         <Route path="/video-gallery" element={<VideoGallery />} />
       </Routes>
+      <Footer />
     </>
   );
 }
