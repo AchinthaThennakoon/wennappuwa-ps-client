@@ -15,7 +15,7 @@ const PrimaryNavBar = () => {
     <AppBar position="sticky" class="bg-white">
       <Toolbar className="flex justify-between items-center px-4 py-2 ">
         <Box className="flex items-center gap-2 ml-28 ">
-          <img src="./public/logo.png" alt="Logo" className="h-18" />
+          <img src="./logo.png" alt="Logo" className="h-18" />
           <Typography class="text-lg font-bold tracking-wider uppercase">
             <Box className="w-full ">
               <span className="block ml-12">Wennappuwa</span>
