@@ -1,6 +1,14 @@
 {
+  "branch_name1": "Wennappuwa",
+  "branch_name2": "Pradeshiya Sabha",
+  "online_payment": "Online Payment",
+  "have_a_complaint": "Have a Complaint",
+  "inquiry": "Inquiry",
+  "emergency": "Emergency",
+  "feedback": "Feedback",
+
   "welcome": "Welcome to our website",
   "about": "About Us",
   "contact": "Contact",
-  "services":"Our Services are, Web development,Artificial Intelligence and Data analytics"
+  "services": "Our Services are, Web development,Artificial Intelligence and Data analytics"
 }
