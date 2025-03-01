@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { AppBar, Tabs, Tab, Button } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
 
 const buttonNames = [
   "Home",
