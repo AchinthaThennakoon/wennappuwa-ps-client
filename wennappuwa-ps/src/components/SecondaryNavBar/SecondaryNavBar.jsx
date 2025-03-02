@@ -1,7 +1,8 @@
-import React, { useState } from "react";
-import { AppBar, Tabs, Tab, Button, Typography, Box } from "@mui/material";
+import { AppBar, Button, Box } from "@mui/material";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import React, { useState, useRef } from "react";
+import DialogBox from "../DialogBox/DialogBox";
 
 const buttonNames = [
   { name: "Home", path: "/home" },
@@ -19,11 +20,22 @@ const languages = [
 
 function SecondaryNavBar() {
   const { t, i18n } = useTranslation();
+  const [dialogOpen, setDialogOpen] = useState(false);
+  const [dialogTitle, setDialogTitle] = useState("");
 
   //function to change the language of the website
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
+
+  // Function to handle opening the dialog for specific buttons
+  const openDialog = (title) => {
+    setDialogTitle(title);
+    setDialogOpen(true);
+  };
+
+  // Function to handle closing the dialog
+  const handleCloseDialog = () => setDialogOpen(false);
 
   return (
     <>
@@ -32,6 +44,11 @@ function SecondaryNavBar() {
           {buttonNames.map((button) => (
             <Button
               key={button.name}
+              onClick={() =>
+                button.name === "About Us" || button.name === "Service"
+                  ? openDialog(button.name) // Open dialog instead of routing
+                  : null
+              }
               component={Link}
               to={button.path}
               color=" black"
@@ -40,7 +57,7 @@ function SecondaryNavBar() {
               {button.name}
             </Button>
           ))}
-          <Box className="flex space-x-0 content-end">
+          <Box className=" flex float-right space-x-0  ">
             {languages.map(({ code, label }) => (
               <Button
                 key={code}
@@ -56,12 +73,18 @@ function SecondaryNavBar() {
                     ? "rounded-r-full"
                     : ""
                 }`}
+                disableRipple
               >
                 {label}
               </Button>
             ))}
           </Box>
         </div>
+        <DialogBox
+          open={dialogOpen}
+          handleClose={handleCloseDialog}
+          title={dialogTitle}
+        />
       </AppBar>
     </>
   );
