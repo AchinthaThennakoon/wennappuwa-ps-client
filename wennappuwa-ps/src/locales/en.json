@@ -10,5 +10,19 @@
   "welcome": "Welcome to our website",
   "about": "About Us",
   "contact": "Contact",
-  "services": "Our Services are, Web development,Artificial Intelligence and Data analytics"
+  "services": "Our Services are, Web development,Artificial Intelligence and Data analytics",
+
+  "address-label": "Our Location",
+  "phone_number": "Phone Number",
+  "email_address": "Email Address",
+  "address": "Puttalam Road, Wennappuwa",
+  "contact_us_txt": "Contact us for any issues you may have. We are dedicated to assisting you!",
+  "contact_us": "Contact Us",
+  "get_in_touch": "Get In Touch With Us",
+
+  "name_label": "Your Name",
+  "email_label": "Your Email",
+  "phone_label": "Your Phone",
+  "message_label": "Your Message",
+  "send_message": "Send Email"
 }
