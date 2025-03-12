@@ -6,7 +6,7 @@ const ContactForm = () => {
 
   return (
     <div className="w-full md:w-1/2 p-8">
-      <Box className="bg-purple-700 p-6 rounded-lg w-full">
+      <Box className=" p-6 w-full">
         <TextField
           fullWidth
           label={t("name_label")}
