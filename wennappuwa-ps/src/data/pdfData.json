@@ -1,0 +1,38 @@
+{
+  "applications": [
+    {
+      "name": "Application for Right to Information",
+      "file": "right_to_know.pdf"
+    },
+    {
+      "name": "Charges for services and property rentals",
+      "file": "gasthu_ayakirim.pdf"
+    },
+    {
+      "name": "Application for a Certificate of Conformity",
+      "file": "Anukuulatha-Application.pdf"
+    },
+    {
+      "name": "Application for a new Environmental Protection Permit",
+      "file": "parisara_arakshana_balapathraya_aluthin.pdf"
+    },
+    {
+      "name": "Application for a new Environmental Protection Permit",
+      "file": "parisara_arakshana_balapathraya_aluthin.pdf"
+    },
+    {
+      "name": "Application for a new Environmental Protection Permit",
+      "file": "parisara_arakshana_balapathraya_aluthin.pdf"
+    }
+  ],
+  "budgets": [
+    {
+      "name": "Application for a Certificate of Conformity",
+      "file": "Anukuulatha-Application.pdf"
+    }
+  ],
+  "finalAccounts": [],
+  "generalAssemblyReports": [],
+  "budgetReports": [],
+  "localGovPolicy": []
+}
