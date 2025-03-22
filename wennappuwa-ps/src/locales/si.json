@@ -24,5 +24,13 @@
   "email_label": "ඔබගේ ඊමේල්",
   "phone_label": "ඔබගේ දුරකථන අංකය",
   "message_label": "ඔබගේ පණිවිඩය",
-  "send_message": "ඊමේල් යවන්න"
+  "send_message": "ඊමේල් යවන්න",
+
+  "download": "බාගත කරන්න",
+  "Applications": "අයදුම්පත්",
+  "Budget": "අයවැය",
+  "Final accounts": "අවසන් ගිණුම්",
+  "General Assembly Reports": "පොදු සභා වාර්තා",
+  "Budget reports": "අයවැය වාර්තා",
+  "Local Government Policy Statement": "දේශීය ආණ්ඩුක්‍රම ව්‍යවස්ථා ප්‍රකාශය"
 }
