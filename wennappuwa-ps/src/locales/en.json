@@ -31,6 +31,11 @@
   "Budget": "budget",
   "Final accounts": "Final accounts",
   "General Assembly Reports": "General Assembly Reports",
-  "Budget reports":"Budget reports",
-  "Local Government Policy Statement":"Local Government Policy Statement"
+  "Budget reports": "Budget reports",
+  "Local Government Policy Statement": "Local Government Policy Statement",
+
+  "vision": "VISION",
+  "mission": "MISSION STATEMENT",
+  "vision_text": "Efficiency for People's Productivity",
+  "mission_text": "Ensuring sustainable socio-economic and cultural development by using resources effectively and efficiently with environmental sensitivity in a participatory approach. Committed to providing reliable service to maintain optimal levels."
 }
