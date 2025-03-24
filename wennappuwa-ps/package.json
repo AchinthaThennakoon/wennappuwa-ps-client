@@ -2,7 +2,7 @@
   "name": "wennappuwa-ps",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://AchinthaThennakoon.github.io/wennappuwa-ps-client",
+  "homepage": "https://AchinthaThennakoon.github.io/wennappuwa-ps-client/",
   "type": "module",
   "scripts": {
     "dev": "vite",
