@@ -9,11 +9,16 @@ import {
   Paper,
   Button,
 } from "@mui/material";
+import DownloadIcon from "@mui/icons-material/Download";
+import { useTranslation } from "react-i18next";
 
 const DownloadTable = ({ title, data, isYearBased = false }) => {
+  const { t } = useTranslation();
+  console.log(title);
+
   return (
     <div className="mb-8">
-      <h2 className="text-lg font-semibold text-gray-800 mb-3">{title}</h2>
+      <h2 className="text-lg font-semibold text-gray-800 mb-3">{t(title)}</h2>
       <TableContainer
         component={Paper}
         className="shadow-md"
@@ -23,9 +28,9 @@ const DownloadTable = ({ title, data, isYearBased = false }) => {
           <TableHead>
             <TableRow className="bg-gray-100">
               <TableCell className="font-semibold">
-                {isYearBased ? "Year" : title}
+                {isYearBased ? "Year" : t(title)}
               </TableCell>
-              <TableCell className="font-semibold">Download</TableCell>
+              <TableCell className="font-semibold">{t("download")}</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -34,8 +39,13 @@ const DownloadTable = ({ title, data, isYearBased = false }) => {
                 <TableCell>{item.name || item.year}</TableCell>
                 <TableCell>
                   <a href={`/pdfs/${item.file}`} download>
-                    <Button variant="contained" color="primary" size="small">
-                      Download
+                    <Button
+                      variant="contained"
+                      color="primary"
+                      size="small"
+                      startIcon={<DownloadIcon />}
+                    >
+                      {t("download")}
                     </Button>
                   </a>
                 </TableCell>

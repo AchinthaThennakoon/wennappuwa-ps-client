@@ -1,13 +1,12 @@
 import React from "react";
 import ContactUs from "../../components/ContactUs/ContactUs";
+import VisionMission from "../../components/VisionMission/VisionMission";
 
 const Home = () => {
   return (
     <div>
-      <div className="text-3xl font-bold">Home Page</div>
-
-      {/* contact us */}
-      <ContactUs/>
+      <VisionMission />
+      <ContactUs />
     </div>
   );
 };

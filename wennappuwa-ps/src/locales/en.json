@@ -24,5 +24,18 @@
   "email_label": "Your Email",
   "phone_label": "Your Phone",
   "message_label": "Your Message",
-  "send_message": "Send Email"
+  "send_message": "Send Email",
+
+  "download": "Download",
+  "Applications": "Applications",
+  "Budget": "budget",
+  "Final accounts": "Final accounts",
+  "General Assembly Reports": "General Assembly Reports",
+  "Budget reports": "Budget reports",
+  "Local Government Policy Statement": "Local Government Policy Statement",
+
+  "vision": "VISION",
+  "mission": "MISSION STATEMENT",
+  "vision_text": "Efficiency for People's Productivity",
+  "mission_text": "Ensuring sustainable socio-economic and cultural development by using resources effectively and efficiently with environmental sensitivity in a participatory approach. Committed to providing reliable service to maintain optimal levels."
 }
