@@ -58,7 +58,7 @@ function Footer() {
         <div className="max-w-screen-xl mx-auto px-4 flex justify-between">
           <div className="flex-1 text-left">
             <Typography class="text-3xl uppercase font-bold">
-              Wennappuwa Pradeshiya Sabha
+              Panduwasnuwara Pradeshiya Sabha
             </Typography>
 
             {contactInfo.map(({ icon, text }, index) => (

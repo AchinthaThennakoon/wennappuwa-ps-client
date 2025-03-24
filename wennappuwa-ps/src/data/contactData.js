@@ -1,8 +1,8 @@
 const contactData = {
-    phone: "031-2255276",
-    fax: "031-2253249",
-    email: "wennappuwaps@gmail.com",
-    address: "Puttalam Road, Wennappuwa",
+    phone: "0372 291 075",
+    fax: "0372 291 075",
+    email: "Panduwasnuwaraps@gmail.com",
+    address: "Paduwasnuwara Pradeshiya Sabha, Hettipola",
 };
 
 export default contactData;
