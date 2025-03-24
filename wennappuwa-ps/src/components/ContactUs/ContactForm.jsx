@@ -37,7 +37,8 @@ const ContactForm = () => {
           fullWidth
           variant="contained"
           sx={{
-            bgcolor: "rgb(244 114 182)", // Equivalent to Tailwind 'bg-pink-400'
+            //bgcolor: "rgb(244 114 182)", // Equivalent to Tailwind 'bg-pink-400'
+            bgcolor: "rgb(59, 130, 246)",
             color: "white",
             py: 2,
             "&:hover": { bgcolor: "rgb(236 72 153)" },

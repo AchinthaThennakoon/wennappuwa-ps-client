@@ -14,7 +14,7 @@ const ContactInfo = () => {
 
       <div className="space-y-4">
         <div className="flex items-center space-x-3">
-          <LocationOn className="text-purple-700" />
+          <LocationOn className="text-blue-500" />
           <div>
             <h4 className="font-semibold">{t("address-label")}</h4>
             <p className="text-gray-500">{t("address")}</p>
@@ -22,7 +22,7 @@ const ContactInfo = () => {
         </div>
 
         <div className="flex items-center space-x-3">
-          <Phone className="text-purple-700" />
+          <Phone className="text-blue-500" />
           <div>
             <h4 className="font-semibold">{t("phone_number")}</h4>
             <p className="text-gray-500">{contactData.phone}</p>
@@ -30,7 +30,7 @@ const ContactInfo = () => {
         </div>
 
         <div className="flex items-center space-x-3">
-          <Email className="text-purple-700" />
+          <Email className="text-blue-500" />
           <div>
             <h4 className="font-semibold">{t("email_address")}</h4>
             <p className="text-gray-500">{contactData.email}</p>
