@@ -39,25 +39,28 @@ function SecondaryNavBar() {
 
   return (
     <>
-      <AppBar position="sticky" class="bg-amber-50" elevation={0}>
-        <div className="flex justify-start items-center px-4 py-2 gap-12 ml-28 ">
-          {buttonNames.map((button) => (
-            <Button
-              key={button.name}
-              onClick={() =>
-                button.name === "About Us" || button.name === "Service"
-                  ? openDialog(button.name) // Open dialog instead of routing
-                  : null
-              }
-              component={Link}
-              to={button.path}
-              color=" black"
-              size="large"
-            >
-              {button.name}
-            </Button>
-          ))}
-          <Box className=" flex float-right space-x-0  ">
+      <AppBar position="sticky" class="bg-amber-50 " elevation={0}>
+        <div className="flex flex-col lg:flex-row justify-between items-center px-4 py-2 gap-12 lg:ml-28 ">
+          <Box className="lg:flex lg:space-x-6 space-y-4 lg:space-y-0 w-full lg:w-auto">
+            {buttonNames.map((button) => (
+              <Button
+                key={button.name}
+                onClick={() =>
+                  button.name === "About Us" || button.name === "Service"
+                    ? openDialog(button.name)
+                    : null
+                }
+                component={Link}
+                to={button.path}
+                color=" black"
+                size="large"
+              >
+                {button.name}
+              </Button>
+            ))}
+          </Box>
+
+          <Box className="flex space-x-0 ml-auto lg:ml-0  mr-20">
             {languages.map(({ code, label }) => (
               <Button
                 key={code}
@@ -80,6 +83,7 @@ function SecondaryNavBar() {
             ))}
           </Box>
         </div>
+
         <DialogBox
           open={dialogOpen}
           handleClose={handleCloseDialog}

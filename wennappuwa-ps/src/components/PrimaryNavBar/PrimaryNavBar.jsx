@@ -27,7 +27,7 @@ const PrimaryNavBar = () => {
           </div>
         </Box>
 
-        <Box className="flex space-x-6 mr-18">
+        <Box className="hidden lg:flex space-x-6 mr-18">
           {navItems.map((item) => (
             <Button key={item.name} component={Link} to={item.path}>
               <Typography
